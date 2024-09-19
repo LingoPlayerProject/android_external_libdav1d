@@ -1,0 +1,10 @@
+prefix=/root/vscodeprojects/android_external_libdav1d
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: dav1d
+Description: DAV1D is a fast AV1 decoder
+Version: 1.4.2
+Libs: -L${libdir} -ldav1d
+Cflags: -I${includedir}
